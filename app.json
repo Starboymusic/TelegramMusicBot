@@ -56,6 +56,16 @@
         "description": "ʏᴏᴜʀ ʟᴏɢ ɢʀᴏᴜᴘ ɪᴅ, ᴀᴅᴅ ʏᴏᴜʀ ʙᴏᴛ ᴀɴᴅ ᴘʀᴏᴍᴏᴛᴇ ᴀs ᴀɴ ᴀᴅᴍɪɴ ᴡɪᴛʜ ғᴜʟʟ ʀɪɢʜᴛs!.",
         "value": "",
         "required": true
+      },
+      "API_KEY": {
+        "description": "ɢᴇᴛ ᴛʜɪs ᴀᴘɪ ᴋᴇʏ ғʀᴏᴍ ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴜsᴇʀɴᴀᴍᴇ: @SHRUTIAPIBOT",
+        "value": "ShrutiBotsIaa3Iy7oTWyeUFpKx9GR",
+        "required": true
+      },
+      "API_URL": {
+        "description": "ɢᴇᴛ ᴛʜɪs ᴀᴘɪ ᴜʀʟ ғʀᴏᴍ ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴜsᴇʀɴᴀᴍᴇ: @SHRUTIAPIBOT",
+        "value": "https://api.shrutibots.site",
+        "required": true
       }
     },
     "buildpacks": [

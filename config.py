@@ -14,7 +14,8 @@ API_HASH = getenv("API_HASH")
 # Get this value from https://console.cloud.google.com/apis/credentials
 # Create a project and enable youtube data api v3
 # Create a new api key and copy it here
-API_KEY = "Rf1qda5gyCITj6VbrekzRxmR"
+API_URL = os.environ.get("SHRUTI_API_URL", "https://api.shrutibots.site")
+API_KEY = os.environ.get("SHRUTI_API_KEY", "ShrutiBotsIaa3Iy7oTWyeUFpKx9GR") ## Get This API KEY FROM TELEGRAM BOT USERNAME: @SHRUTIAPIBOT 
 
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")

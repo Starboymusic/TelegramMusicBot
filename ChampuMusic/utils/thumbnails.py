@@ -90,8 +90,9 @@ async def get_thumb(videoid: str):
 
 
         # Font paths
-        font_path_regular = "ShyMusicBot/assets/font2.ttf"
-        font_path_bold = "ShyMusicBot/assets/font3.ttf"
+        assets_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "assets")
+        font_path_regular = os.path.join(assets_dir, "font2.ttf")
+        font_path_bold = os.path.join(assets_dir, "font3.ttf")
 
         # Medium album art 
         thumb_size = 250
